@@ -40,6 +40,7 @@ body {
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 100px;
+    margin-top: 10px;
 }
 
 ul {
@@ -155,17 +156,37 @@ h1 {
     color: white;
     border-radius: 7px;
     /* max-width: 1000px; */
-    padding: 40px;
+    padding: 50px 70px;
     /* width: 900px; */
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
-.button {
-    background-color: #3382F6;
+.button2 {
+    background-color: #3382F6; 
+    border: none;
     color: white;
-    border: 1px solid white;
-    box-shadow: none;
+    padding: 0px 35px;;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 8px;
+  }
+
+.button1 {
+    background-color: #3382F6; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 10px;
 }
 
 .box-header {
